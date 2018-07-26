@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "directories": {
-    "test": "tests"
+    "test": "test"
   },
   "scripts": {
-    "test": "mocha"
+    "test": ".node_modules/bin/mocha"
   },
   "keywords": [],
   "author": "",
