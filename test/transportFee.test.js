@@ -11,5 +11,4 @@ describe('transportFee', function(){
   it('should return free if its night shift', function(){
     assert.equal(transportFee('night shift'), 'free');
   });
-  it('no shift, no transport');
 });
